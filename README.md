@@ -4,8 +4,8 @@
 
 ## Models
 - Post -> date:date rationale:text
-- User -> Devise
-- AdminUser -> STI
+x User -> Devise
+x AdminUser -> STI
 
 ## Features:
 - Approval Workflow
@@ -15,4 +15,4 @@
 - Needs to be documented if employee did not log overtime
 
 ## UI:
-Bootstrap -> formatting
+- Bootstrap -> formatting
