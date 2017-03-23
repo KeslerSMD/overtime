@@ -18,4 +18,4 @@ x AdminUser -> STI
 - Bootstrap -> formatting
 
 ## Refactor TODOS:
-- Refacter user associations integration in post_spec
+- Refactor user associations integration in post_spec
