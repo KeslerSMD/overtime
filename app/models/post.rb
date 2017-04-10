@@ -5,7 +5,7 @@ class Post < ActiveRecord::Base
 
 	validates :overtime_request, numericality: { greater_than: 0.0 }
 
-	scope :posts_by, ->(user) { where(user_id: user.id) }
+	scope :posts_by, -> (user) { where(user_id: user.id) }
 
 	after_save :confirm_audit_log, if: :submitted?
 	after_save :un_confirm_audit_log, if: :rejected?
