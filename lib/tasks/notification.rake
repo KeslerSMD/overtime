@@ -21,5 +21,4 @@ namespace :notification do
       end
     end
   end
-
 end
