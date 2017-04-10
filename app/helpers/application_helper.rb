@@ -12,9 +12,9 @@ module ApplicationHelper
 	end
 
 	private
-
-	def status_span_generator status
-		case status
+		
+		def status_span_generator status
+			case status
 			when 'submitted'
 				content_tag(:span, status.titleize, class: 'label label-primary')
 			when 'approved'
@@ -25,6 +25,6 @@ module ApplicationHelper
 				content_tag(:span, status.titleize, class: 'label label-primary')
 			when 'confirmed'
 				content_tag(:span, status.titleize, class: 'label label-success')
+			end
 		end
-	end
 end
