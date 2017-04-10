@@ -61,6 +61,6 @@ gem 'administrate', github: 'greetpoint/administrate', branch: 'rails5'
 gem 'bourbon'
 gem 'pundit', '~>1.1'
 gem 'sprockets'
-gem 'twilio-ruby', '~> 4.11', '~> 4.11.1'
+gem 'twilio-ruby'
 gem 'dotenv-rails' , :groups => [:development, :test]
 gem 'kaminari', '~>0.17.0'
